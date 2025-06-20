@@ -1,4 +1,202 @@
-# Sell
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شعار Telegram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+        }
+        
+        h1 {
+            color: white;
+            margin-bottom: 40px;
+            font-size: 2.8rem;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .telegram-logo {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto 30px;
+        }
+        
+        .circle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #0088cc;
+            border-radius: 50%;
+            box-shadow: 0 10px 30px rgba(0, 136, 204, 0.5);
+        }
+        
+        .paper-plane {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 180px;
+            height: 180px;
+            transform: translate(-50%, -50%);
+        }
+        
+        .body {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 70px;
+            height: 140px;
+            background: white;
+            border-radius: 40px 40px 0 0;
+            transform: translateX(-50%) rotate(45deg);
+            transform-origin: bottom center;
+        }
+        
+        .wing-left {
+            position: absolute;
+            top: 60px;
+            left: 30px;
+            width: 80px;
+            height: 40px;
+            background: white;
+            border-radius: 0 20px 20px 0;
+            transform: rotate(45deg);
+        }
+        
+        .wing-right {
+            position: absolute;
+            top: 60px;
+            right: 30px;
+            width: 80px;
+            height: 40px;
+            background: white;
+            border-radius: 20px 0 0 20px;
+            transform: rotate(-45deg);
+        }
+        
+        .tail {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            width: 40px;
+            height: 60px;
+            background: white;
+            border-radius: 0 0 20px 20px;
+            transform: translateX(-50%);
+        }
+        
+        .details {
+            position: absolute;
+            top: 65px;
+            left: 50%;
+            width: 30px;
+            height: 30px;
+            background: #0088cc;
+            border-radius: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .name {
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-top: 30px;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .description {
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 600px;
+            margin: 30px auto 0;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        
+        .highlight {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .telegram-logo {
+                width: 200px;
+                height: 200px;
+            }
+            
+            .paper-plane {
+                width: 120px;
+                height: 120px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .name {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>شعار Telegram</h1>
+        
+        <div class="telegram-logo">
+            <div class="circle"></div>
+            <div class="paper-plane">
+                <div class="body"></div>
+                <div class="wing-left"></div>
+                <div class="wing-right"></div>
+                <div class="tail"></div>
+                <div class="details"></div>
+            </div>
+        </div>
+        
+        <div class="name">Telegram</div>
+        
+        <p class="description">
+            شعار Telegram يتكون من <span class="highlight">دائرة زرقاء</span> يرمز للتواصل العالمي، 
+            وبداخلها <span class="highlight">طائرة ورقية</span> بيضاء ترمز للسرعة والحرية في إرسال الرسائل. 
+            اللون الأزرق (#0088CC) هو العلامة المميزة لتطبيق Telegram حول العالم.
+        </p>
+    </div>
+</body>
+</html>
+ ===
+ 
+ 
+ Sell
+
+
+
 
 
 <!DOCTYPE html>
